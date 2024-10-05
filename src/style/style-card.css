@@ -1,0 +1,24 @@
+.employee-info {
+	width: 30%;
+	background: #ddd;
+	color: #222;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	.employee-name {
+		width: 50%;
+		text-align: center;
+	}
+	.employee-salary {
+		width: 50%;
+		text-align: center;
+		color: #077745;
+		font-weight: 600;
+	}
+}
+
+hr {
+	width: 4px;
+	height: 25px;
+	background: #077745;
+}
