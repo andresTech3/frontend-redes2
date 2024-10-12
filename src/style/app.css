@@ -8,6 +8,11 @@ body {
 	background: #222;
 	font-size: 20px;
 	color: #fff;
+	position: relative;
+}
+
+html {
+	position: relative;
 }
 
 .box-form {

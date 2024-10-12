@@ -1,15 +1,17 @@
-const fetchEmployees = async (API_URL) => {
+const fetchEmployees = async (API_URL, httpMethod = "GET") => {
 	try {
 		const response = await fetch(API_URL, {
-			method: "GET",
+			method: httpMethod,
 		});
 		if (!response.ok) {
 			throw new Error("Network response was not ok");
 		}
-		return response;
+		const result = await response.json();
+		const data = await result.data;
+		return data;
 	} catch (error) {
 		console.error("Error fetching employees:", error);
-		throw error; // Lanza el error para manejarlo en el componente
+		throw error;
 	}
 };
 

@@ -22,3 +22,58 @@ hr {
 	height: 25px;
 	background: #077745;
 }
+
+.icon-edit {
+	margin: 0px 2px;
+	transition: 200ms ease-in-out;
+	font-size: 25px;
+	&:hover {
+		color: #094bd9;
+	}
+}
+
+.icon-delete {
+	margin: 0px 2px;
+	transition: 200ms ease-in-out;
+	font-size: 25px;
+	&:hover {
+		color: #f20707;
+	}
+}
+
+.infoEdit input {
+	border: none;
+	outline: none;
+	font-size: 15px;
+	font-weight: 600;
+	text-align: center;
+	width: 50%;
+}
+
+.btns {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+
+	.btnA {
+		transition: 300ms ease-in-out;
+		&:hover {
+			background: #077745;
+			color: #fff;
+		}
+	}
+	.btnC {
+		transition: 300ms ease-in-out;
+		&:hover {
+			background: #c90606;
+			color: #fff;
+		}
+	}
+}
+
+.btns button {
+	border: none;
+	outline: none;
+	padding: 8px;
+	margin: 2px 5px;
+}
