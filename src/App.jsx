@@ -5,7 +5,7 @@ import "./style/app.css";
 import Card from "./components/Card";
 import fetchEmployees from "./hooks/Api";
 
-const API_URL = "http://10.10.9.65";
+const API_URL = "http://localhost";
 const API_PORT = 3000;
 
 function App() {

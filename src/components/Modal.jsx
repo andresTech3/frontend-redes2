@@ -2,7 +2,7 @@ import { useState } from "react";
 import ReactDOM from "react-dom";
 import "../style/style-modal.css";
 
-const API_URL = "http://10.10.9.65";
+const API_URL = "http://localhost";
 const API_PORT = 3000;
 
 function Modal({ isOpen, onClose, addEmployee }) {
